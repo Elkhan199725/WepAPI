@@ -1,6 +1,6 @@
 ﻿namespace WebAPI.Entities;
 
-public class Movie
+public class Movie : BaseEntity
 {
     public string Title { get; set; }
     public string Director { get; set; }

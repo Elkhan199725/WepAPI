@@ -1,6 +1,6 @@
 ﻿namespace WebAPI.Entities;
 
-public class Genre
+public class Genre : BaseEntity
 {
     public string Name { get; set; }
 
