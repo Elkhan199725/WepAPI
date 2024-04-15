@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhan mammadli\\source\\repos\\movieproject\\webapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhan mammadli\\source\\repos\\movieproject\\webapi\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhan mammadli\\source\\repos\\movieproject\\webapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Entities\\Movie.cs",
+              "RelativeToolTip": "WebAPI\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:54:57.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Entities\\Genre.cs",
+              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Entities\\Genre.cs",
+              "RelativeToolTip": "WebAPI\\Entities\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:54:50.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "WebAPI\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:51:53.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
