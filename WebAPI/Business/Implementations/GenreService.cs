@@ -90,7 +90,7 @@ namespace WebAPI.Business.Implementations
             if (genre == null)
                 throw new KeyNotFoundException("Genre not found.");
             if (genre.IsActive == false)
-                throw new FileNotFoundException("Genre must be active!");
+                throw new InvalidOperationException("Genre is already inactive.");
             genre.IsActive = false;
             genre.UpdateModifiedDate();
             await _context.SaveChangesAsync();
@@ -110,6 +110,8 @@ namespace WebAPI.Business.Implementations
             existingGenre.IsActive = genre.IsActive;
 
             existingGenre.UpdateModifiedDate();
+
+            _context.Genres.Update(existingGenre);
             await _context.SaveChangesAsync();
         }
     }
