@@ -7,6 +7,8 @@ public class MovieCreateDto
     public DateTime ReleaseDate { get; set; }
     public string Description { get; set; }
     public double Rating { get; set; }
+    public double CostPrice { get; set; }
+    public double SellPrice { get; set; }
     public bool IsActive { get; set; }
     public List<int> GenreIds { get; set; }
 }

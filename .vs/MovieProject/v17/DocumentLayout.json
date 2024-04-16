@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\",
+  "WorkspaceRootPath": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhan mammadli\\source\\repos\\movieproject\\webapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\webapi\\business\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\dtos\\movie\\moviecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\dtos\\movie\\moviecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\business\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\business\\implementations\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\webapi\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\webapi\\data\\webapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\data\\webapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\data\\webapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\webapi\\business\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|c:\\users\\elkhantma\\desktop\\wepapi\\webapi\\business\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C383031-A663-4763-A48B-C84E775702ED}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\business\\implementations\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +46,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Entities\\Movie.cs",
+              "RelativeToolTip": "WebAPI\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:11:53.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\DTOs\\Movie\\MovieCreateDto.cs",
+              "RelativeDocumentMoniker": "WebAPI\\DTOs\\Movie\\MovieCreateDto.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\DTOs\\Movie\\MovieCreateDto.cs",
+              "RelativeToolTip": "WebAPI\\DTOs\\Movie\\MovieCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:11:41.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T10:07:35.363Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -45,20 +96,12 @@
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GenreService.cs",
-              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Business\\Implementations\\GenreService.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Business\\Implementations\\GenreService.cs",
               "RelativeDocumentMoniker": "WebAPI\\Business\\Implementations\\GenreService.cs",
-              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Business\\Implementations\\GenreService.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Business\\Implementations\\GenreService.cs",
               "RelativeToolTip": "WebAPI\\Business\\Implementations\\GenreService.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAcwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -66,68 +109,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Business\\Implementations\\MovieService.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Business\\Implementations\\MovieService.cs",
               "RelativeDocumentMoniker": "WebAPI\\Business\\Implementations\\MovieService.cs",
-              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Business\\Implementations\\MovieService.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Business\\Implementations\\MovieService.cs",
               "RelativeToolTip": "WebAPI\\Business\\Implementations\\MovieService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T23:28:40.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T23:28:40.11Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Controllers\\MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\MoviesController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAkwGIAAAAvAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAswIIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T21:40:14.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:08:43.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T20:08:43.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "WebAPI\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\ServiceRegistration.cs",
               "RelativeToolTip": "WebAPI\\ServiceRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:33:10.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T20:33:10.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "WebAPIDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Data\\WebAPIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Data\\WebAPIDbContext.cs",
               "RelativeDocumentMoniker": "WebAPI\\Data\\WebAPIDbContext.cs",
-              "ToolTip": "C:\\Users\\Elkhan Mammadli\\source\\repos\\MovieProject\\WebAPI\\Data\\WebAPIDbContext.cs",
+              "ToolTip": "C:\\Users\\elkhantma\\Desktop\\WepAPI\\WebAPI\\Data\\WebAPIDbContext.cs",
               "RelativeToolTip": "WebAPI\\Data\\WebAPIDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T20:09:10.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T20:09:10.662Z"
             }
           ]
         }

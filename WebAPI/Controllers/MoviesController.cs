@@ -98,7 +98,9 @@ public class MoviesController : ControllerBase
             ReleaseDate = movieDto.ReleaseDate,
             Description = movieDto.Description,
             Rating = movieDto.Rating,
-            IsActive = movieDto.IsActive
+            IsActive = movieDto.IsActive,
+            CostPrice = movieDto.CostPrice,
+            SellPrice = movieDto.SellPrice
         };
 
         await _movieService.CreateMovieAsync(movie, movieDto.GenreIds);
