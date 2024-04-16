@@ -28,7 +28,9 @@ public class MovieService : IMovieService
 
     public async Task<Movie> GetMovieByIdAsync(int id)
     {
-        var movie = await _context.Movies.FindAsync(id);
+        var movie = await _context.Movies
+                                  .Include(m => m.Genres) // Ensure genres are loaded
+                                  .FirstOrDefaultAsync(m => m.Id == id);
         if (movie == null)
             throw new KeyNotFoundException($"No movie found with ID {id}.");
         return movie;

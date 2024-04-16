@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using WebAPI.Data;
 using WebAPI.DTOs.Movie;
 using WebAPI.Entities;
 
@@ -9,16 +11,22 @@ namespace WebAPI.Controllers;
 public class MoviesController : ControllerBase
 {
     private readonly IMovieService _movieService;
+    private readonly IGenreService _genreService;
+    private readonly WebAPIDbContext _context;
 
-    public MoviesController(IMovieService movieService)
+    public MoviesController(IMovieService movieService, IGenreService genreService, WebAPIDbContext context)
     {
         _movieService = movieService;
+        _genreService = genreService;
+       _context = context;
     }
 
     [HttpGet]
     public async Task<ActionResult<IEnumerable<MovieReadDto>>> GetAllMovies()
     {
-        var movies = await _movieService.GetAllMoviesAsync();
+        // Eager loading genres with movies
+        var movies = await _context.Movies.Include(m => m.Genres).ToListAsync();
+
         var movieDtos = movies.Select(movie => new MovieReadDto
         {
             Id = movie.Id,
@@ -28,11 +36,31 @@ public class MoviesController : ControllerBase
             Description = movie.Description,
             Rating = movie.Rating,
             IsActive = movie.IsActive,
-            Genres = movie.Genres.Select(g => g.Name).ToList()
+            Genres = movie.Genres?.Select(g => g.Name).ToList() ?? new List<string>() // Safeguard against null genres
         }).ToList();
 
         return Ok(movieDtos);
     }
+
+    [HttpGet("active")]
+    public async Task<ActionResult<IEnumerable<MovieReadDto>>> GetActiveMovies()
+    {
+        var movies = await _movieService.GetActiveMoviesAsync();
+        var movieDtos = movies.Select(movie => new MovieReadDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Director = movie.Director,
+            ReleaseDate = movie.ReleaseDate,
+            Description = movie.Description,
+            Rating = movie.Rating,
+            IsActive = movie.IsActive,
+            Genres = movie.Genres?.Select(g => g.Name).ToList() ?? new List<string>()
+        }).ToList();
+
+        return Ok(movieDtos);
+    }
+
 
     [HttpGet("{id}")]
     public async Task<ActionResult<MovieReadDto>> GetMovieById(int id)
@@ -50,11 +78,12 @@ public class MoviesController : ControllerBase
             Description = movie.Description,
             Rating = movie.Rating,
             IsActive = movie.IsActive,
-            Genres = movie.Genres.Select(g => g.Name).ToList()
+            Genres = movie.Genres?.Select(g => g.Name).ToList() ?? new List<string>() // Safeguard against null genres
         };
 
         return Ok(movieDto);
     }
+
 
     [HttpPost]
     public async Task<ActionResult<MovieReadDto>> CreateMovie([FromBody] MovieCreateDto movieDto)
