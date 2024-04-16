@@ -9,5 +9,6 @@ public class MovieUpdateDto
     public string Description { get; set; }
     public double Rating { get; set; }
     public bool IsActive { get; set; } // If updating the active status is allowed
+    public List<int> GenreIds { get; set; }
 }
 

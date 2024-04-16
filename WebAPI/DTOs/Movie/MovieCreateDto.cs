@@ -7,6 +7,6 @@ public class MovieCreateDto
     public DateTime ReleaseDate { get; set; }
     public string Description { get; set; }
     public double Rating { get; set; }
-    public bool IsActive { get; set; } = true; // Default to active when creating a new movie
+    public bool IsActive { get; set; }
+    public List<int> GenreIds { get; set; }
 }
-

@@ -42,10 +42,13 @@ public class MovieService : IMovieService
         return movie;
     }
 
-    public async Task<Movie> CreateMovieAsync(Movie movie)
+    public async Task<Movie> CreateMovieAsync(Movie movie, List<int> genreIds)
     {
         if (movie == null)
             throw new ArgumentNullException(nameof(movie));
+
+        // Fetch genres from the database
+        movie.Genres = await _context.Genres.Where(g => genreIds.Contains(g.Id)).ToListAsync();
 
         _context.Movies.Add(movie);
         movie.SetCreatedDate();
@@ -53,24 +56,29 @@ public class MovieService : IMovieService
         return movie;
     }
 
-    public async Task UpdateMovieAsync(Movie movie)
+    public async Task UpdateMovieAsync(Movie movie, List<int> genreIds)
     {
         if (movie == null)
             throw new ArgumentNullException(nameof(movie));
 
-        var existingMovie = await _context.Movies.FindAsync(movie.Id);
+        var existingMovie = await _context.Movies.Include(m => m.Genres)
+                                                 .FirstOrDefaultAsync(m => m.Id == movie.Id);
         if (existingMovie == null)
             throw new KeyNotFoundException("Movie to update not found.");
 
+        // Update scalar properties
         existingMovie.Title = movie.Title;
         existingMovie.Director = movie.Director;
         existingMovie.ReleaseDate = movie.ReleaseDate;
         existingMovie.Description = movie.Description;
         existingMovie.Rating = movie.Rating;
         existingMovie.IsActive = movie.IsActive;
-        existingMovie.UpdateModifiedDate();
 
-        _context.Movies.Update(existingMovie);
+        // Update genres
+        existingMovie.Genres.Clear();
+        var genresToAdd = await _context.Genres.Where(g => genreIds.Contains(g.Id)).ToListAsync();
+        existingMovie.Genres.AddRange(genresToAdd);
+
         await _context.SaveChangesAsync();
     }
 

@@ -11,5 +11,5 @@ public class Movie : BaseEntity
     public double SellPrice { get; set; }
 
     // Navigation property for the many-to-many relationship
-    public ICollection<Genre>? Genres { get; set; }
+    public List<Genre>? Genres { get; set; }
 }
